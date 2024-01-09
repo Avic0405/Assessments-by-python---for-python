@@ -41,10 +41,10 @@ def send_email(driver):
     # recipients_button.send_keys('avic3929@gmail.com')  # Enter email of whom you want to send
     time.sleep(5)
     subject_input = driver.find_element(By.XPATH,'//*[@id=":n6"]')
-    subject_input.send_keys('tesla')
+    subject_input.send_keys('incubyte')
 
     body_input = driver.find_element(By.XPATH,'//*[@id=":f9"]')
-    body_input.send_keys('QA test for tesla')
+    body_input.send_keys('QA test for incubyte')
 
     send_button = driver.find_element(By.XPATH,'//*[@id=":dp"]')
     send_button.click()
